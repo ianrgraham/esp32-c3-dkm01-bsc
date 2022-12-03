@@ -10,7 +10,7 @@ readme = "README.md"
 
 [features]
 default = ["experimental"]
-experimental = ["esp-idf-svc/experimental", "embedded-svc/experimental"]
+experimental = ["esp-idf-svc/experimental", "embedded-svc/experimental"] # , "embedded-svc/alloc"
 
 [dependencies]
 rgb = "0.8"
@@ -21,8 +21,4 @@ esp-idf-sys = "0.31.11"
 esp-idf-svc = "0.43.4"
 esp-idf-hal = "0.39.3"
 embedded-svc = "0.23"
-embedded-hal = "0.2"
-
-[build-dependencies]
-embuild = { version = "0.30.4", features = ["elf"] }
-anyhow = "1.0"
+# embedded-hal = "0.2"
