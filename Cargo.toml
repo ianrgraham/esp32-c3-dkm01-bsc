@@ -1,8 +1,12 @@
 [package]
-name = "esp32-c3-bkm01-bsc"
+name = "esp32-c3-dkm01-bsc"
 version = "0.1.0"
 authors = ["Ian Graham"]
 edition = "2021"
+description = "Board support crate for the ESP32-C3 DevKit M1 board"
+repository = "https://github.com/ianrgraham/esp32-c3-bkm01-bsc"
+license = "MIT"
+readme = "README.md"
 
 [features]
 default = ["experimental"]
@@ -17,3 +21,8 @@ esp-idf-sys = "0.31.11"
 esp-idf-svc = "0.43.4"
 esp-idf-hal = "0.39.3"
 embedded-svc = "0.23"
+embedded-hal = "0.2"
+
+[build-dependencies]
+embuild = { version = "0.30.4", features = ["elf"] }
+anyhow = "1.0"
