@@ -3,8 +3,8 @@ name = "esp32-c3-dkm01-bsc"
 version = "0.1.0"
 authors = ["Ian Graham"]
 edition = "2021"
-description = "Board support crate for the ESP32-C3 DevKit M1 board"
-repository = "https://github.com/ianrgraham/esp32-c3-bkm01-bsc"
+description = "Board support crate for the ESP32-C3 DevKit M1."
+repository = "https://github.com/ianrgraham/esp32-c3-dkm01-bsc"
 license = "MIT"
 readme = "README.md"
 
